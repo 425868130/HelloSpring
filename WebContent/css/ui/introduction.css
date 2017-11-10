@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+/*======叶子图形字体=======*/
+.springLogo {
+    color: white;
+    font-size: 200px;
+    margin-top: 15%;
+    margin-left: 5%;
+    padding: 40px;
+    background: #4CAF50;
+    border-radius: 50%;
+}
+
+/*左侧面板*/
+.leftDiv {
+    width: 60%;
+}
+/*左上角HelloSpring*/
+.TextLogo {
+    float: left;
+    color: #2C3E50;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.TextLogo:hover {
+    text-decoration: none;
+    color: #2C3E50;
+}
+
+/*中间提示文字：开源 轻量Java开发框架*/
+.loginTips {
+    float: right;
+    margin-right: 5%;
+    color: #2C3E50;
+    font-size: 75px;
+    margin-top: 20%;
+}
+
+/*spring优势简介DIV*/
+.meritDiv {
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+.meritDiv div {
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.meritTitle {
+    color: #4FC08D;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.meritContent {
+    margin-top: 25px;
+    color: #7F8C8D;
+}

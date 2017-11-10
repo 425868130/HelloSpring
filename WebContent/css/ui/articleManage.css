@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+/*
+教程管理页面样式
+*/
+.ContainerRight * {
+	/* border: solid;  */
+	
+}
+/* 左边容器 */
+.ContainerLeft {
+	background: white;
+	width: 20%;
+	float: left;
+	padding-left: 20px;
+	margin-left: 5%;
+}
+/* 右边容器 */
+.ContainerRight {
+	margin-top: 5%;
+	margin-left: 30%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 65%;
+	height: auto;
+	background: white;
+	height: auto;
+}
+/* 创建教程按钮 */
+.creatArticle {
+	color: #44a839;
+	border: none;
+	margin-left: 90%;
+}
+
+/* 教程列表单元 */
+.articleLi {
+	height: 60px;
+	padding: 10px;
+	font-size: 23px;
+	color: black;
+	cursor: pointer;
+}
+/* 鼠标划过时列表背景暗化 */
+.hoverList:HOVER {
+	background-color: #f2f2f2;
+}
+/* 鼠标滑过时同时显示浮动菜单 */
+.hoverList:HOVER .floatMenu {
+	display: block;
+}
+
+.articleLi a {
+	color: black;
+}
+
+.articleLi a:HOVER {
+	color: #71a479;
+}
+
+/* 主题列表单元 */
+.themeLi {
+	height: 40px;
+	margin-top:15px;
+	padding: 5px;
+	color: black;
+	cursor: pointer;
+}
+
+/* 浮动菜单 */
+.floatMenu {
+	float: right;
+	color: gray;
+	display: none;
+}
+
+.editIcon {
+	font-size: 25px;
+}
+
+.trashIcon {
+	font-size: 23px;
+}
+
+.trashIcon:HOVER {
+	color: red;
+}
+
+.editIcon:HOVER {
+	color: blue;
+}
+/* 主题选择器 */
+#selectTheme {
+	height: 35px;
+	text-align: center;
+}
+/* 主题编辑输入框 */
+.themeInput{
+	margin-top:5px;
+	height: 35px;
+	width: 65%;
+}

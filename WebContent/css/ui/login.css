@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+/*直接跳转教程页的链接*/
+.goHome{
+    float: right;
+    color: #2C3E50;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.goHome:hover{
+    text-decoration: none;
+    color: #2C3E50;
+}
+/*登录表单容器*/
+.formContainer {
+    width:40%;
+    float: right;
+    margin-top: 35px;
+}
+/*竖直分割线*/
+.formContainer .hr {
+    width: 1px;
+    height: 350px;
+    margin-top: 30%;
+    margin-left: 10%;
+    background: #98a6a7;
+    float: left;
+}
+
+/* 登录表单样式 */
+form {
+    padding: 20px;
+    margin-left: 25%;
+    width: 45%;
+    margin-top: 28%;
+}
+form img{
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+/*表单输入框*/
+.inputArea {
+    width: 90%;
+    height: 45px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+/*错误提示*/
+.errorTip{
+	width: 90%;
+	height:100%;
+	padding:0px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.inputCheckCode {
+    width: 55%;
+}
+/*跳转注册页面的按钮*/
+.btn-ToReg{
+    width: 110px;
+    height: 45px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #42b983;
+    border: 1px solid #4fc08d;
+}
+.btn-ToReg:hover{
+    color: #42b983;
+}
+
+/* 登录按钮 */
+.btn-login {
+    width: 110px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 20%;
+    background: #4FC08D;
+    color: white
+}
+.btn-login:hover{
+    color: white;
+}

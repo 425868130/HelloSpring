@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+/* 主容器 */
+.main {
+	margin-top: 100px;
+	margin-bottom:5%;
+	padding: 10px 10px 3%  10px;
+	width: 80%;
+	margin-left: 10%;
+	background-color: white;
+}
+/* summerNote编辑框 */
+#summerNoteDIV {
+	margin-left: 10%;
+	width: 80%;
+	margin-top: 10px;
+}
+
+.title {
+	margin-left: 20px;
+	margin-left: 10%;
+}
+
+.articleTitleEdit {
+	margin-top: 20px;
+	width: 80%;
+	margin-left: 10%;
+	width: 80%;
+}
+
+#inputArtTitle {
+	width: 90%;
+	height: 35px;
+}
+
+#articleSummary {
+	width: 90%;
+	margin-left: 90px;
+	max-width: 90%;
+	max-height: 70px;
+}
+
+/* 主题选择下拉列表 */
+#themeSelect {
+	height: 35px;
+}
+
+.font20 {
+	font-size: 20px;
+}
+
+#buttonGroup button {
+	margin-left: 72%;
+	width: 140px;
+	height: 45px;
+	font-size: 20px;
+}

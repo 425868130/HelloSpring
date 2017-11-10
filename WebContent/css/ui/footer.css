@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+/*页脚样式*/
+.footer{
+	clear:both;
+    margin-top: 20px;
+    padding-top: 20px;
+    background: #5D5D5D;
+    text-align: center;
+    color: white;
+    min-height: 50px;
+}

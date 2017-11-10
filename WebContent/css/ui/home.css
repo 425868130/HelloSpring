@@ -1,0 +1,86 @@
+/*主页主体内容容器*/
+.contentContainer {
+	margin-top: 70px;
+	margin-left: 5%;
+	width: 90%;
+	height: auto;
+	min-height: 730px;
+}
+
+/*教程列表样式*/
+.artListItem {
+	margin: 20px auto;
+	width: 80%;
+	height: auto;
+	background-color: white;
+	/*  box-shadow: 0 1px 4px gray, 0 0 0 gray inset; */
+}
+
+/*教程主题*/
+.artTheme {
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+/*列表标题*/
+.artTitle {
+	color: black;
+	display: block;
+	font-size: large;
+	font-style: oblique;
+	padding-left: 10px;
+	max-lines: 1;
+	text-overflow: ellipsis;
+}
+
+.listTitle:hover {
+	text-decoration: none;
+}
+
+/*内容简介*/
+.artSummary {
+	margin-top: 5px;
+	padding-left: 20px;
+	padding-right: 80px;
+	color: darkgray;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/*发布时间*/
+.artTime {
+	color: darkgray;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+/*分页样式*/
+.pageIndex {
+	margin-top: 20px;
+	margin-left: 38%;
+	height: 70px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.pageIndex a {
+	cursor: pointer;
+}
+
+.pagination {
+	color: black;
+}
+
+.emptyInco {
+	font-size: 250px;
+	margin-top: 10%;
+	margin-left: 40%;
+	color: #ff8000;
+}
+
+.emptyTip {
+	font-size: 30px;
+	margin-left: 37%;
+	margin-top: 40px;
+}
